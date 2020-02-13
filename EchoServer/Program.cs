@@ -12,8 +12,8 @@ namespace EchoServer
             Console.WriteLine("Hello World! SERVER");
             
             Server s1 = new Server();
-            TcpClient socket = s1.Start();
-            s1.DoClient(socket);
+            s1.Start();
+          
             Console.ReadLine();
 
         }
